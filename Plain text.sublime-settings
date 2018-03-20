@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the Plain text syntax
+{
+  // "font_face": "Source Code Pro ",  
+  "font_face": "YaHei Consolas Hybrid",  
+  "font_size": 10 
+}

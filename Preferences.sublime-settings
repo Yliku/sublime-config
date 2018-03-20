@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"command": "open_in_browser",
+	"default_encoding": "UTF-8",
+	"font_face": "YaHei Consolas Hybrid",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"keys":
+	[
+		"ctrl+shift+b"
+	],
+	"theme": "Default.sublime-theme",
+	"word_wrap": "false"
+}

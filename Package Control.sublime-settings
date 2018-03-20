@@ -1,0 +1,15 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ChineseLocalizations",
+		"ConvertToUTF8",
+		"Emmet",
+		"Package Control",
+		"SideBarEnhancements",
+		"View In Browser"
+	]
+}
