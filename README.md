@@ -1,5 +1,5 @@
 # sublime-config
-我的sublime配置文件
+我的Sublime Text3配置文件
 
 我使用的操作系统是Windows 7系统，不同的操作系统mac/linux，在 sublime配置上会有微小的差别。
 
@@ -11,9 +11,8 @@
 
 ### 安装步骤
 
-- 在新系统上 sublime 3/2 和 git安装好之后
+- 在新系统上 sublime 3/2 和 git安装好之后，在git中：
 ```
-在git中，
 cd ~/AppData/Roaming/Sublime Text 3/Packages/User
 git clone git@github.com:Yliku/sublime-config.git
 mv sublime-config/* .
