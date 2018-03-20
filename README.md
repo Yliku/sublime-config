@@ -4,7 +4,7 @@
 我使用的操作系统是Windows 7系统，不同的操作系统mac/linux，在 sublime配置上会有微小的差别。
 
 我自己装的插件有：
-1. Emmet:Web前端开发工具，代码自动补齐
+1. Emmet：Web前端开发工具，代码自动补齐
 2. view in browser：不会用...
 3. SideBarEnhancements：增强侧边栏插件，[可用于浏览器预览](http://www.cnblogs.com/binstyle/p/5304842.html)
 
