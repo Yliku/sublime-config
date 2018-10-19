@@ -13,8 +13,8 @@
 ```console
 cd ~/AppData/Roaming/Sublime Text 3/Packages/User
 git clone git@github.com:Yliku/sublime-config.git
-mv sublime-config/* .
-rm -rf sublime-config
+mv sublime-config/* .           将sublime-config文件下的所有文件移动到当前文件夹
+rm -rf sublime-config           删除空的sublime-config文件夹
 ```
 
 - 到 https://packagecontrol.io/installation 安装 packagecontrol 。这样所有的包会自动安装上。
