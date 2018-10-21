@@ -1,17 +1,23 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"command": "open_in_browser",
-	"default_encoding": "UTF-8",
-	"font_face": "YaHei Consolas Hybrid",
-	"font_size": 10,
+	"default_encoding": "UTF-8",//设置文件的默认编码格式
+	"font_face": "YaHei Consolas Hybrid",//设置默认字体
+	"font_size": 10,//设置默认字体大小
+	"highlight_line":true,//鼠标所在的行高亮显示
+	"show_encoding":true,
+	"line_numbers":true,//是否显示行号
+	"margin":0,//行号边框和文字的距离
+	"tab_size":4,//Tab键缩进符宽度
+	"caret_style":"phase",//设置光标闪动方式 smooth、phase、blink、solid
 	"ignored_packages":
 	[
 		"Vintage"
-	],
+	],//忽略sublime的插件，vintage是sublime的vi模式编辑包，可以使用组合命令来调用sublime的功能
 	"keys":
 	[
 		"ctrl+shift+b"
 	],
-	"theme": "Default.sublime-theme",
-	"word_wrap": "false"
+	"theme": "Default.sublime-theme",//sublime的界面主题
+	"word_wrap": "false"//禁止自动换行
 }
