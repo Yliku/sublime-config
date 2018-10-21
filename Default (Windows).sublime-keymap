@@ -1,20 +1,24 @@
 [
-	{ "keys": ["f2"],  
-	"command": "side_bar_files_open_with", 
-  "args": {"application": "C:\\Users\\Administrator\\AppData\\Roaming\\360se6\\Application\\360se.exe", 
+  {"keys": ["f2"],  
+  "command": "side_bar_files_open_with", 
+  "args": {"application": "C:\\Users\\Administrator.USER-20181020VX\\AppData\\Roaming\\360se6\\Application\\360se.exe", 
   "extensions": ".*", "paths": []}  
-	},  
-    {   "keys": ["f1"],  
-    "command": "side_bar_files_open_with", "args": {"application": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", "extensions": ".*", "paths": []}  
-     },  
-  //  {         "keys": ["f2"],  
-  //      "command": "side_bar_files_open_with", "args": {"application": "C:\\Users\\delll\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe", "extensions": ".*", "paths": []}  
-  // },  
-  // {          "keys": ["f3"],  
-  //      "command": "side_bar_files_open_with", "args": {"application": "C:\\Program Files\\Internet Explorer\\iexplore.exe", "extensions": ".*", "paths": []}  
-  //   },  
-  //  {          "keys": ["f4"],  
-  //      "command": "side_bar_files_open_with", "args": {"application": "C:\\Program Files (x86)\\360\\360safe\\360AppLoader.exe", "extensions": ".*", "paths": []}  
-  //  }  
+  },
+  {"keys": ["f1"],  
+  "command": "side_bar_files_open_with", 
+  "args": {"application": "C:\\Users\\Administrator.USER-20181020VX\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe", 
+  "extensions": ".*", "paths": []}  
+  },
+
+// {"keys": ["f3"],  
+// "command": "side_bar_files_open_with", 
+// "args": {"application": "C:\\Program Files\\Internet Explorer\\iexplore.exe", 
+// "extensions": ".*", "paths": []}  
+// },  
+// {"keys": ["f4"],  
+// "command": "side_bar_files_open_with", 
+// "args": {"application": "C:\\Program Files (x86)\\360\\360safe\\360AppLoader.exe", 
+// "extensions": ".*", "paths": []}  
+// },
 
 ]
