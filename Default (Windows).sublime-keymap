@@ -6,8 +6,8 @@
   },
   {"keys": ["f1"],  
   "command": "side_bar_files_open_with", 
-  "args": {"application": "C:\\Users\\Administrator.USER-20181020VX\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe", 
-  "extensions": ".*", "paths": []}  
+  "args": {"application": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", 
+  "extensions": ".*", "paths": []}
   },
 
 // {"keys": ["f3"],  
