@@ -1,14 +1,18 @@
 [
+  //在360浏览器中打开当前代码
   {"keys": ["f2"],  
   "command": "side_bar_files_open_with", 
   "args": {"application": "C:\\Users\\Administrator.USER-20181020VX\\AppData\\Roaming\\360se6\\Application\\360se.exe", 
   "extensions": ".*", "paths": []}  
   },
+  //在谷歌浏览器中打开当前代码
   {"keys": ["f1"],  
   "command": "side_bar_files_open_with", 
   "args": {"application": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", 
   "extensions": ".*", "paths": []}
   },
+  //配置编译可选项的命令：工具栏->用...编译
+  { "keys": ["ctrl+1"], "command": "build", "args": {"select": true} },
 
 // {"keys": ["f3"],  
 // "command": "side_bar_files_open_with", 
