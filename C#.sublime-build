@@ -1,19 +1,17 @@
 {
-	"cmd": ["RunCSharp.bat", "$file"],
+	"cmd": ["RunCSharp.bat", "$file"],		//要执行的命令，用数组的形式来传入要执行的每个命令
 	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
 	"selector": "source.cs",
 	"encoding": "cp936",
-	//指定要执行的 RunCSharp.bat 路径/位置，也可以将该路径配置为全局环境变量
-	"path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\Roslyn",	
+	//path 指定要执行的命令路径/位置，但这样设置后，命令只会在该路径下找，不会去找全局变量的命令；最好是不设置，然后将该路径配置为全局环境变量
+	// "path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\Roslyn",	
 	//variants 是指这种编译格式下的衍生的其他命令，可以用 Ctrl+ Shift + B 选择这里面对应的命令
-	"variants": [
-		{
-		"cmd" : ["RunCSharp.bat", "$file"],
-		"name" : "Compile & Run"
-		},
-		{
-		"cmd" : ["RunCSharp.bat", "$file"],
-		"name" : "Compile1111 & Run"
+	"variants": [{
+		"name" : "test1",
+		"cmd" : ["csc", "-version"], //用数组的形式来传入要执行的每个命令，推荐
+		},{
+		"name" : "test2",
+		"cmd" : "RunCSharp.bat $file",	//这种直接写命令的写法，如果路径存在空格，会报错，不推荐
 		},
 	]
 }
