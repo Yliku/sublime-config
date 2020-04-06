@@ -13,7 +13,9 @@
   },
   //配置编译可选项的命令：工具栏->用...编译
   { "keys": ["ctrl+1"], "command": "build", "args": {"select": true} },
-
+  //格式化代码
+  { "keys": ["shift+tab"], "command": "reindent", "args": {"single_line": false}}
+  
 // {"keys": ["f3"],  
 // "command": "side_bar_files_open_with", 
 // "args": {"application": "C:\\Program Files\\Internet Explorer\\iexplore.exe", 
