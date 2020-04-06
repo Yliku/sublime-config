@@ -2,20 +2,21 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"command": "open_in_browser",
-	"default_encoding": "UTF-8",
+	"default_encoding": "UTF-8",	//设置文件的默认编码格式
 	//左侧导航目录忽略显示以下文件
 	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules"],
-	"font_face": "YaHei Consolas Hybrid",	//字体
+	"font_face": "YaHei Consolas Hybrid",	//默认字体
 	"font_size": 8,							//字体大小
-	"highlight_line": true,
+	"highlight_line": true,			//鼠标所在的行高亮显示
+	"line_numbers": true,			//是否显示行号
+	"caret_style":"smooth",	//设置光标闪动方式 smooth 、 phase 、 blink 、 solid
 	//忽略插件，该插件会让sublime的编辑模式切换成vim的编辑模式
 	"ignored_packages": ["Vintage"],
 	"keys": ["ctrl+shift+b"],
-	"line_numbers": true,
 	"margin": 0,	//编辑区域的左边距
 	"open_files_in_new_window": false,
 	"show_encoding": true,
-	"tab_size": 4,	//缩进的空格数
+	"tab_size": 4,	//Tab键缩进符宽度，4个空格
 	"theme": "Default.sublime-theme",
 	"word_wrap": "true",	//代码是否自动换行
 }
