@@ -1,0 +1,15 @@
+<!-- 
+content：在CDATA中填补全内容
+tabTrigger：触发代码
+scope：文件类型
+description：描述信息
+下例为： 输入con按tab键 会补全为console.log();并将光标定位到()内。 
+-->
+<snippet>
+    <content>
+        <![CDATA[console.log(${1});]]>
+    </content>
+    <tabTrigger>con</tabTrigger>
+    <scope>source.js</scope>
+    <description>console</description>
+</snippet>
