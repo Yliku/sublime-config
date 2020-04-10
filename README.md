@@ -8,7 +8,10 @@
 2. ConvertToUTF8 或者 GBK Encoding Support：	支持多种编码，解决打开文件中的中文乱码问题
 3. Emmet：Web前端开发工具，代码自动补齐
 4. Vue Syntax Highlight：前端vue框架，语法高亮
-5. view in browser：在默认的浏览器中预览HTML代码
+5. Scss: 前端.scss文件代码高亮
+6. Git：可在sublime中使用git，Ctrl+shift+p，输入：git status等命令
+7. SyncedSideBar：选中文件后，左侧目录会自动定位到该文件
+8. view in browser：在默认的浏览器中预览HTML代码
 
 ### 安装步骤
 - 在新系统上 sublime 3/2 和 git安装好之后，在git中：
