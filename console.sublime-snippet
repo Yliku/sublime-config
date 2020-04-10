@@ -1,0 +1,21 @@
+<!-- 
+content：在CDATA中填补全内容
+tabTrigger：触发代码
+
+scope：文件类型，改后缀，比如： source.js source.php source.css source.python source.css text.html text.html.vue
+该代码片段将作用于对应后缀的文件代码中；
+想指定多个 scope，可以使用英文逗号“,”来分隔。
+如何知道文档的Scope是什么？Window版Sublime Text查看文件的scope类型，
+使用  Ctrl+Shift+Alt+P 快捷键，scope类型会显示在编辑器左下角，多个scope类型的文件我们只需要取第一个即可。
+
+description：描述信息
+下例为： 输入con按tab键 会补全为console.log();并将光标定位到()内。 
+-->
+<snippet>
+    <content>
+        <![CDATA[console.log(${1});]]>
+    </content>
+    <tabTrigger>con</tabTrigger>
+    <scope>source.js</scope>
+    <description>console</description>
+</snippet>
