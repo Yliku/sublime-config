@@ -11,7 +11,7 @@
 	"line_numbers": true,			//是否显示行号
 	"caret_style":"smooth",	//设置光标闪动方式 smooth 、 phase 、 blink 、 solid
 	//忽略插件，该插件会让sublime的编辑模式切换成vim的编辑模式
-	"ignored_packages": ["Vintage"],
+	"ignored_packages": ["Vintage","SyncedSideBar"],
 	"keys": ["ctrl+shift+b"],
 	"margin": 0,	//编辑区域的左边距
 	"open_files_in_new_window": false,
