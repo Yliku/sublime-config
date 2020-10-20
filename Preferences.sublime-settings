@@ -20,4 +20,7 @@
 	"word_wrap": "true",	//代码是否自动换行
 	//解决鼠标双击变量时不能同时选中变量的$符号的问题
 	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+	
+    "tab_size": 4,
+    "translate_tabs_to_spaces": false,	//false代表缩进用tab来缩进
 }
