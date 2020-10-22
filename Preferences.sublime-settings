@@ -18,8 +18,8 @@
 	"tab_size": 4,	//Tab键缩进符宽度，4个空格
 	"theme": "Default.sublime-theme",
 	"word_wrap": "true",	//代码是否自动换行
-	//解决鼠标双击变量时不能同时选中变量的$符号的问题
-	"word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+	//解决鼠标双击变量时不能同时选中变量的$符号的问题，但会造成双击变量时不会匹配到同名的变量
+	// "word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
 	
     "tab_size": 4,
     "translate_tabs_to_spaces": false,	//false代表缩进用tab来缩进
