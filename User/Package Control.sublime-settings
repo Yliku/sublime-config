@@ -5,6 +5,11 @@
 	],
 	"installed_packages":
 	[
-		"SideBarEnhancements"
+		"ChineseLocalizations",
+		"Emmet",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"Vue Syntax Highlight",
 	],
 }
