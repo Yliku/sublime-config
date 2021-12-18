@@ -1,6 +1,24 @@
 {
-	"ignored_packages":
-	[
-		"Vintage",
-	],
+	// 忽略插件，Vintage插件会让sublime的编辑模式切换成vim的编辑模式
+	"ignored_packages": ["Vintage",],
+	"theme": "Default.sublime-theme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"open_files_in_new_window": false,
+	"caret_style": "smooth",				// 设置光标闪动方式 smooth 、 phase 、 blink 、 solid
+	"default_encoding": "UTF-8",			// 设置文件的默认编码格式
+	// 左侧导航目录忽略显示以下文件
+	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules"],
+	"font_face": "YaHei Consolas Hybrid",	// 默认字体
+	"font_size": 8,							// 字体大小
+	"highlight_line": true,					// 鼠标所在的行高亮显示
+	"line_numbers": true,					// 是否显示行号
+	"margin": 0,							// 编辑区域的左边距
+	"show_encoding": true,
+	"tab_size": 4,							// Tab键缩进符宽度，4个空格
+	"translate_tabs_to_spaces": false,		// false代表缩进用tab来缩进
+	"word_wrap": "true",					// 代码是否自动换行
+	// "keys": ["ctrl+shift+b"],
+	// "command": "open_in_browser",
+	// 解决鼠标双击变量时不能同时选中变量的$符号的问题，但会造成双击变量时不会匹配到同名的变量
+	// "word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
 }
