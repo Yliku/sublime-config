@@ -1,6 +1,7 @@
 {
 	// 忽略插件，Vintage插件会让sublime的编辑模式切换成vim的编辑模式
-	"ignored_packages": ["Vintage",
+	"ignored_packages": [
+		"Vintage",		// 关闭Vim模式，防止使用过程中按Esc进入Vim模式
 	],
 	"theme": "Default.sublime-theme",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
