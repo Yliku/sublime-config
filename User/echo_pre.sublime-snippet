@@ -10,6 +10,6 @@ description：描述信息
         <![CDATA[echo '<pre>'; print_r(${1}); echo '<pre>'; ]]>
     </content>
     <tabTrigger>epre</tabTrigger>
-    <scope>source.php</scope>
+    <scope>source.php, text.html.php</scope>
     <description>echo pre</description>
 </snippet>
