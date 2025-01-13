@@ -8,8 +8,9 @@
 		"ChineseLocalizations",
 		"Emmet",
 		"Package Control",
-		"SCSS",
+		"PackageResourceViewer",
+		"Sass",
 		"SideBarEnhancements",
-		"Vue Syntax Highlight",
+		"Vue",
 	],
 }
