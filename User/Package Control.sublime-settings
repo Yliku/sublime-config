@@ -6,11 +6,14 @@
 	"installed_packages":
 	[
 		"ChineseLocalizations",
+		"ConvertToUTF8",
 		"Emmet",
 		"Package Control",
 		"PackageResourceViewer",
 		"Sass",
 		"SideBarEnhancements",
+		"Tailwind CSS",
+		"Tailwind CSS Autocomplete",
 		"Vue",
 	],
 }
