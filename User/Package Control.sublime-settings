@@ -8,6 +8,7 @@
 		"ChineseLocalizations",
 		"ConvertToUTF8",
 		"Emmet",
+		"Emmet Css Snippets",
 		"Package Control",
 		"PackageResourceViewer",
 		"Sass",
@@ -15,5 +16,6 @@
 		"Tailwind CSS",
 		"Tailwind CSS Autocomplete",
 		"Vue",
+		"Vuejs Snippets",
 	],
 }
